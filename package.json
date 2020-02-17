@@ -32,6 +32,9 @@
       "standard-version": "5.0.2"
    },
    "dependencies": {},
+   "peerDependencies": {
+      "markdownlint": ">= 0.19.0"
+   },
    "config": {
       "commitizen": {
          "path": "./node_modules/cz-conventional-changelog"
