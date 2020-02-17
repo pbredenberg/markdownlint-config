@@ -25,10 +25,8 @@
       "@commitlint/travis-cli": "8.3.5",
       "@silvermine/eslint-config": "3.0.0-rc.0",
       "check-node-version": "4.0.2",
-      "coveralls": "3.0.2",
       "cz-conventional-changelog": "3.1.0",
       "eslint": "6.8.0",
-      "source-map-support": "0.5.9",
       "standard-version": "7.1.0"
    },
    "dependencies": {},
