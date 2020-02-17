@@ -1,0 +1,40 @@
+{
+   "name": "@silvermine/markdownlint-config",
+   "version": "0.1.0",
+   "description": "",
+   "main": "./dist/commonjs/index",
+   "types": "./dist/types/index.d.ts",
+   "module": "./dist/esm/index",
+   "scripts": {
+      "test": "check-node-version --npm 6.13.4",
+      "commitlint": ""
+   },
+   "author": "Paul Bredenberg",
+   "license": "MIT",
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/silvermine/markdownlint-config.git"
+   },
+   "bugs": {
+      "url": "https://github.com/silvermine/markdownlint-config/issues"
+   },
+   "homepage": "https://github.com/silvermine/markdownlint-config#readme",
+   "devDependencies": {
+      "@commitlint/cli": "7.5.2",
+      "@commitlint/config-conventional": "7.5.0",
+      "@commitlint/travis-cli": "7.5.2",
+      "@silvermine/eslint-config": "3.0.0-rc.0",
+      "check-node-version": "4.0.2",
+      "coveralls": "3.0.2",
+      "cz-conventional-changelog": "2.1.0",
+      "eslint": "6.8.0",
+      "source-map-support": "0.5.9",
+      "standard-version": "5.0.2"
+   },
+   "dependencies": {},
+   "config": {
+      "commitizen": {
+         "path": "./node_modules/cz-conventional-changelog"
+      }
+   }
+}
